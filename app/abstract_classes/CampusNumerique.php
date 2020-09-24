@@ -7,6 +7,11 @@ abstract class CampusNumerique
 
     public function validation()
     {
-        echo "Pour valider le diplôme de tech dev ".$this->speciality.", il faut valider 100% des compétences"; 
+        echo "Pour valider le diplôme " . $this->speciality . ", il faut valider 100% des compétences";
     }
+
+    // public function genial()
+    // {
+    //     echo "le campus numerique, c'est génial";
+    // }
 }

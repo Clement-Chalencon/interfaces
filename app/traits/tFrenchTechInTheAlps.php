@@ -3,13 +3,12 @@ require 'tReseauFrenchTech.php';
 
 trait tFrenchTechInTheAlps
 {
-    use tReaseauFrenchTech{
+    use tReaseauFrenchTech {
         slogan as public;
     }
 
     public function genial()
     {
-        echo "plein d'entreprises pour vos alternances, ça va être super génial !";
+        echo "Plein de super entreprises pour vos alternances, ça va être super génial !";
     }
-
 }

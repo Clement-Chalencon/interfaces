@@ -2,14 +2,16 @@
 
 trait tAwsome
 {
+    protected $super = "super";
+
     public function super()
     {
-        echo "Vous êtes super super !";
+        echo "Vous êtes " . $this->super . " " . $this->super . " !";
     }
 
     public function genial()
     {
-        echo "Vous êtes super geniaux !";
+        echo "Les traits c'est super genial !";
     }
 
     public function  extra()

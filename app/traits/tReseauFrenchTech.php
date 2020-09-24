@@ -6,4 +6,6 @@ trait tReaseauFrenchTech
     {
         echo "ENSEMBLE VERS LES SOMMETS !";
     }
+
+    abstract public function startup();
 }
